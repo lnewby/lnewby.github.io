@@ -1,1 +1,346 @@
-I am Lance Newby
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <title>Lance Newby</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="Lance Newby" />
+<meta name="author" content="" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.56.3" />        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">        <link rel="manifest" href="site.webmanifest">        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="favicon.ico">        
+
+
+  <link
+    rel="stylesheet"
+    href="/css/bootstrap/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+
+  <link
+    id="color-CSS"
+    rel="stylesheet"
+    href="/css/aafu_dark.css"
+    type="text/css"
+  />
+  <link rel="stylesheet" href="/css/aafu.css" />
+
+  <script>
+    var themeColor = document.querySelector("meta[name=theme-color]");
+    window.onload = function() {
+      themeColor.content = getComputedStyle(document.body)["background-color"];
+      let defaultActivePanel = document.querySelector(".accordion.active")
+        .nextElementSibling;
+      defaultActivePanel.style.maxHeight =
+        defaultActivePanel.scrollHeight + "px";
+    };
+    window.onresize = function() {
+      document.querySelector(".active").nextElementSibling.style.maxHeight =
+        document.querySelector(".active").nextElementSibling.scrollHeight +
+        "px";
+    };
+  </script>
+</head>
+<body class="container" style="max-width: 1400px;">
+<div class="ml-auto mr-auto row row-eq-height rounded">
+  <div class="col-md-5 text-center p-2 mt-3">
+    <div class="profile-area rounded text-center position-relative">
+      
+<div class="toggleSwitchContainer" style="width: 45px; height: 45px;">
+  <i
+    class="fas fa-toggle-on zoomlink"
+    id="toggle"
+    title="Toggle Theme"
+    onclick="toggleTheme(this)"
+  ></i>
+</div>
+
+<script>
+  const mainTheme =
+    "\/css\/aafu_dark.css";
+  const altTheme =
+    "\/css\/aafu_light.css";
+  const currentCSS = document.querySelector("#color-CSS");
+  function toggleTheme(elem) {
+    
+    
+    elem.classList.toggle("fa-toggle-off");
+    elem.classList.toggle("fa-toggle-on");
+    if (currentCSS.href.includes(mainTheme)) {
+      currentCSS.setAttribute("href", "." + altTheme);
+    } else {
+      currentCSS.setAttribute("href", "." + mainTheme);
+    }
+  }
+
+  function changeThemeColor() {
+    themeColor.content = getComputedStyle(document.body)["background-color"];
+  }
+  const thisBody = document.body;
+  thisBody.addEventListener("webkitTransitionEnd", changeThemeColor);
+  thisBody.addEventListener("transitionend", changeThemeColor);
+</script>
+
+
+      <div class="d-flex justify-content-center pt-2">
+  <div class="w-100 h-100">
+    <img
+      class="rounded rounded-circle mt-4"
+      src="/images/profile.jpg"
+      alt=""
+      style="width: 95%; max-width: 300px;"
+    />
+  </div>
+</div>
+
+      <div class="p-2">
+        <h1 class="mb-0">Lance Newby</h1>
+<h2 class="mb-0">Designer &#43; Engineer</h2>
+<h3 class="mb-0">Los Angeles, CA</h3>
+<div class="mt-2 d-flex flex-wrap justify-content-center">
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://linkedin.com/in/lnewby">
+      <i class="zoomlink mt-1 fab fa-linkedin-in"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://github.com/lnewby">
+      <i class="zoomlink mt-1 fab fa-github"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://twitter.com/lancenewby">
+      <i class="zoomlink mt-1 fab fa-twitter"></i>
+    </a>
+  </div>
+  
+</div>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-7 pt-2 mt-3">
+    
+    <h2 class="accordion  active ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-user"></i>
+        About Me</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <p class="markdownify">
+  I seek to leverage my background in Software Engineering and Graphic Design within a team to (1) serve end-users by exploiting the unique features not yet realized at the intersection of technology and design, and (2) provide enjoyable user experiences that aid in visibility, accessibility, and usability.
+</p>
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-briefcase"></i>
+        Experiences</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+<dl>
+  <dt class="mb-0">
+    Game Director for Skyfarer
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">Mar 2019 - Present</span>
+    &middot;
+    
+    USC Games
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify">Skyfarer | Mixed Reality Action-Adventure Game for Shoulder Pain Rehabilitation Created by Marientina Gotsis | Executive Producer and Associate Professor of Research at the USC Interactive Media &amp; Games Division</dd>
+</dl>
+
+<dl>
+  <dt class="mb-0">
+    Software Engineer
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">Apr 2013 - Feb 2018</span>
+    &middot;
+    
+    Angie&#39;s List
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify">Development team member responsible for researching and development of design stack and web present for Angie’s List web services.</dd>
+</dl>
+
+<dl>
+  <dt class="mb-0">
+    Assistant to Director
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">Jun 2011 - Apr 2013</span>
+    &middot;
+    
+    International Center for China Studies - UNC Charlotte
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify">Strengthen ties and understanding between China, UNC Charlotte, and the State of North Carolina by exchanging knowledge across academic disciplines, promoting socio-economic interactions and an understanding of Chinese life and culture.</dd>
+</dl>
+
+<dl>
+  <dt class="mb-0">
+    Director of R&amp;D
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">Aug 2006 - Dec 2012</span>
+    &middot;
+    
+    Failure Free 
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify">Designer of the web based presence of the company. Responsible for managing a team of 5 people to insure data integrity, accessibility, and visibility of web based solutions.</dd>
+</dl>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-graduation-cap"></i>
+        Education</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+<dl>
+  <dt>M.S. in Computer Science | Game Development</dt>
+  <dd class="mb-0 ml-3">2018 - 2020 (expected) &middot; University of Sourthern California</dd>
+  
+</dl>
+
+<dl>
+  <dt>B.S. in Computer Science</dt>
+  <dd class="mb-0 ml-3">2011 &middot; University of North Carolina at Charlotte</dd>
+  
+</dl>
+
+<dl>
+  <dt>B.A. in Art | Graphic Design</dt>
+  <dd class="mb-0 ml-3">2011 &middot; University of North Carolina at Charlotte</dd>
+  
+</dl>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-project-diagram"></i>
+        Projects</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <dl>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">project</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
+  
+</dl>
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-cogs"></i>
+        Skills</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+      id="skill-panel"
+      
+    >
+      <script>
+  let skillPanel = document.querySelector("#skill-panel")
+    .previousElementSibling;
+  skillPanel.addEventListener("click", function() {
+    let skillBars = document.querySelectorAll("#skill-percent");
+    skillBars.forEach(elem => {
+      elem.style.width = elem.classList[0];
+    });
+  });
+</script>
+
+<code>Javascript, C&#43;&#43;, Python</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="75%" style="width: 0;"></div>
+</div>
+
+<code>Unreal Engine, Unity, Maya</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="50%" style="width: 0;"></div>
+</div>
+
+<code>Illustrator, Photoshop, Gimp</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="70%" style="width: 0;"></div>
+</div>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-gamepad"></i>
+        Hobbies</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <ul class="pl-0">
+  
+  <li class="list-unstyled mb-2">Game Design</li>
+  
+  <li class="list-unstyled mb-2">Cycling</li>
+  
+  <li class="list-unstyled mb-2">Swimming</li>
+  
+</ul>
+
+    </div>
+    
+    <script src="/js/accordion.js"></script>
+  </div>
+</div>
+
+  </body>
+</html>
