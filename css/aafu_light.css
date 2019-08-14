@@ -11,7 +11,7 @@ body {
 a,
 .accordion,
 .social-icons * {
-  color: #007bff;
+  color: #27a03d;
 }
 
 .skillbar {
@@ -20,5 +20,5 @@ a,
 }
 
 #skill-percent {
-  background-color: #007bff;
+  background-color: #27a03d;
 }
