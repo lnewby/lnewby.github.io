@@ -31,5 +31,16 @@
 </description>
     </item>
     
+    <item>
+      <title>Dust Bunnies</title>
+      <link>https://academia-hugo.netlify.com/project/dust-bunnies/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://academia-hugo.netlify.com/project/dust-bunnies/</guid>
+      <description>&lt;p&gt;Attack of the Dust Bunnies combines virtual reality + iRobot Roomba to make cleaning your room home fun.&lt;/p&gt;
+&lt;p&gt;This game project was created for Advanced Mobile Devices and Game Consoles (CSCI 526) at USC Games by Lance Newby (team lead), Zhun (Allen) Shen, Varinthorn (Tiana) Bulakul, Kevin Figueroa, Sam Hobel, Ahmed Qureshi, Jinglei Lyu, and Yuning Yin&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
